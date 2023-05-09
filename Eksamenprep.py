@@ -241,6 +241,7 @@ def find_int_index(list1:list, list2:list) -> dict:
         dct[num] = range(len(list1.index(num)),0,-1) # Backwards? Nope, didn't work
     print(dct)
 
+# Not enough time, RIP
 
 
 find_int_index ([ 1, 0, 3, 4, 5, 3],  [ 3, 4, 5 ])
