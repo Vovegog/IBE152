@@ -183,8 +183,8 @@ def choose_path(score: int, stage: int) -> int:
 
         if choice == "help":
             help(curr_stage)
-
-        choice, invalid = check_legal_input(choice, valid_choices, invalid)
+        else:
+            choice, invalid = check_legal_input(choice, valid_choices, invalid)
 
     if choice == "fish" and curr_stage == "stage2":
         player_info["sword"] = True
